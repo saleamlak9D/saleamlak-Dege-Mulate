@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Deges Play",
+  "description": "A modern, premium, responsive Cross-Platform Ludo Mobile Application built with saleamlak.dege.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Dice Outer body with soft shadow/glow -->
+    <path
+        android:pathData="M24,24 h60 a8,8 0,0,1 8,8 v60 a8,8 0,0,1 -8,8 h-60 a8,8 0,0,1 -8,-8 v-60 a8,8 0,0,1 8,-8 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#2563EB" android:offset="0.0" />
+                <item android:color="#1D4ED8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dice Inner Face Border -->
+    <path
+        android:pathData="M28,28 h52 a4,4 0,0,1 4,4 v52 a4,4 0,0,1 -4,4 h-52 a4,4 0,0,1 -4,-4 v-52 a4,4 0,0,1 4,-4 z"
+        android:fillColor="#00000000"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="1.5" />
+
+    <!-- 5 Dots representing dice faces in neon yellow/white -->
+    <!-- Top-Left Dot -->
+    <path
+        android:pathData="M40,40 m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#FACC15" />
+
+    <!-- Top-Right Dot -->
+    <path
+        android:pathData="M68,40 m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#FACC15" />
+
+    <!-- Center Dot -->
+    <path
+        android:pathData="M54,54 m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Bottom-Left Dot -->
+    <path
+        android:pathData="M40,68 m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#FACC15" />
+
+    <!-- Bottom-Right Dot -->
+    <path
+        android:pathData="M68,68 m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#FACC15" />
+
+</vector>
